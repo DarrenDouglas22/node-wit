@@ -45,8 +45,8 @@ const actions = {
   },
   ['fetch-weather'](sessionId, context, cb) {
     // Here should go the api call, e.g.:
-    // context.forecast = apiCall(context.loc)
-    context.forecast = 'sunny';
+    //context.forecast = apiCall(context.loc)
+    context.forecast = https://api.forecast.io/forecast/8b4048cc575081eab73572074ba486c2/51.5074,0.1278;
     cb(context);
   },
 };
